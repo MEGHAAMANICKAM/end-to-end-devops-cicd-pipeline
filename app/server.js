@@ -55,7 +55,7 @@ h1 {
     <h1>🚀 CI/CD Pipeline Active</h1>
     <p>Containerized with Docker | Ready for Kubernetes</p>
 
-    <div class="status">BUILD SUCCESS</div>
+    <div class="status">BUILD SUCCESS -Version 2</div>
 
     <div class="footer">
       DevOps Project by Meghaa 💛
