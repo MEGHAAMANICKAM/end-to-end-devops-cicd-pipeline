@@ -41,6 +41,7 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 sh '''
+                sudo -u meghaa minikube status || sudo -u meghaa minikube start
                 sudo -u meghaa /snap/bin/kubectl apply -f k8s/deployment.yaml
                 sudo -u meghaa /snap/bin/kubectl apply -f k8s/service.yaml
                 '''
