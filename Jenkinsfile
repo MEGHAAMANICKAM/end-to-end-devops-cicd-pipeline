@@ -41,8 +41,8 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 sh '''
-                kubectl --kubeconfig=$KUBE_CONFIG apply -f k8s/deployment.yaml
-                kubectl --kubeconfig=$KUBE_CONFIG apply -f k8s/service.yaml
+                sudo -u meghaa /snap/bin/kubectl apply -f k8s/deployment.yaml
+                sudo -u meghaa /snap/bin/kubectl apply -f k8s/service.yaml
                 '''
             }
         }
