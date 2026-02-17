@@ -84,26 +84,31 @@ minikube service devops-cicd-service
 ```
 
 ## ✨ Key Features
-✔ Fully automated CI/CD pipeline
-✔ Dockerized application
-✔ Kubernetes deployment
-✔ Automatic Minikube start during deployment
-✔ Secure credential handling
-✔ GitHub integration
+
+- ✔ Fully automated CI/CD pipeline
+- ✔ Dockerized application
+- ✔ Kubernetes deployment
+- ✔ Automatic Minikube start during deployment
+- ✔ Secure credential handling
+- ✔ GitHub integration
+
 
 ## 📸 Output
+
 The application is successfully deployed and accessible via Kubernetes service.
 
 ## 📚 What I Learned
--Setting up Jenkins pipelines from scratch
--Managing Docker permissions for Jenkins
--Kubernetes deployment automation
--Secure credential management
--Debugging real-world CI/CD issues
--End-to-end DevOps workflow
 
-👩‍💻 Author
+- Setting up Jenkins pipelines from scratch
+- Managing Docker permissions for Jenkins
+- Kubernetes deployment automation
+- Secure credential management
+- Debugging real-world CI/CD issues
+- End-to-end DevOps workflow
 
-Meghaa Manickam
+## 👩‍💻 Author
+
+**Meghaa Manickam**  
 Aspiring DevOps & Cloud Engineer ☁️🚀
+
 
