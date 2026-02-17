@@ -45,6 +45,7 @@ Developer → GitHub → Jenkins Pipeline → Docker Build & Push → Kubernetes
 
 ## 📁 Project Structure
 
+```
 devops-cicd-project/
 │── app/
 │ ├── server.js
@@ -56,7 +57,7 @@ devops-cicd-project/
 │
 │── Dockerfile
 │── Jenkinsfile
-
+```
 
 ---
 
@@ -82,7 +83,7 @@ Docker Hub credentials are securely stored and injected into the pipeline using 
 minikube service devops-cicd-service
 ```
 
-✨ Key Features
+## ✨ Key Features
 ✔ Fully automated CI/CD pipeline
 ✔ Dockerized application
 ✔ Kubernetes deployment
@@ -90,10 +91,10 @@ minikube service devops-cicd-service
 ✔ Secure credential handling
 ✔ GitHub integration
 
-📸 Output
+## 📸 Output
 The application is successfully deployed and accessible via Kubernetes service.
 
-📚 What I Learned
+## 📚 What I Learned
 -Setting up Jenkins pipelines from scratch
 -Managing Docker permissions for Jenkins
 -Kubernetes deployment automation
@@ -102,6 +103,7 @@ The application is successfully deployed and accessible via Kubernetes service.
 -End-to-end DevOps workflow
 
 👩‍💻 Author
+
 Meghaa Manickam
 Aspiring DevOps & Cloud Engineer ☁️🚀
 
