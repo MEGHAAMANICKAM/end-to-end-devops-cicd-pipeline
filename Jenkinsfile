@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 environment {
     DOCKER_IMAGE = "meghaamanickam/devops-cicd-app"
     DOCKER_TAG = "latest"
@@ -45,6 +44,5 @@ stages {
         }
     }
 }
-```
 
 }
