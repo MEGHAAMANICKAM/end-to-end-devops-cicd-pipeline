@@ -22,16 +22,18 @@ stages {
     }
 
     stage('Push to Docker Hub') {
-        steps {
-            withCredentials([usernamePassword(
-                credentialsId: 'dockerhub-creds',
-                usernameVariable: 'DOCKER_USER',
-                passwordVariable: 'DOCKER_PASS'
-            )]) {
+    steps {
+        withCredentials([usernamePassword(
+            credentialsId: 'dockerhub-creds',
+            usernameVariable: 'DOCKER_USER',
+            passwordVariable: 'DOCKER_PASS'
+        )]) {
 
-                bat 'echo %DOCKER_PASS% | docker login -u %DOCKER_USER% --password-stdin'
+            bat 'echo Username is %DOCKER_USER%'
 
-                bat 'docker push meghaamanickam/devops-cicd-app:latest'
+            bat 'docker login -u %DOCKER_USER% -p %DOCKER_PASS%'
+
+            bat 'docker push meghaamanickam/devops-cicd-app:latest'
             }
         }
     }
